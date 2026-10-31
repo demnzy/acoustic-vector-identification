@@ -1,0 +1,17 @@
+Mosquito Vector Acoustic Classification Report
+Dataset: Public Wingbeats Audio (8 kHz)
+Model: VectorNet (Edge-Friendly Baseline MLP)
+============================================================
+
+                     precision    recall  f1-score   support
+
+        Ae. aegypti     0.6923    0.6000    0.6429        60
+     Ae. albopictus     0.7538    0.8167    0.7840        60
+     An. arabiensis     0.6481    0.5833    0.6140        60
+        An. gambiae     0.6923    0.7500    0.7200        60
+         C. pipiens     0.7463    0.8333    0.7874        60
+C. quinquefasciatus     0.8947    0.8500    0.8718        60
+
+           accuracy                         0.7389       360
+          macro avg     0.7379    0.7389    0.7367       360
+       weighted avg     0.7379    0.7389    0.7367       360
